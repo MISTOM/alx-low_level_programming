@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "holberton.h"
 /**
  * main - Entry point to the function
  * Description: prints the fibonacci numbers
@@ -16,11 +17,11 @@ int main(void)
 	{
 		if (i == 49)
 		{
-			printf("%d\n", nextterm);
+			printf("%u\n", nextterm);
 		}
 		else
 		{
-			printf("%d, ", nextterm);
+			printf("%u, ", nextterm);
 		}
 		t1 = t2;
 		t2 = nextterm;
