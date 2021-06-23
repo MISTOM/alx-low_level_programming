@@ -33,4 +33,7 @@ void jack_bauer(void);
 /* 10-add.c */
 int add(int, int);
 
+/* 11-print_to_98.c */
+void print_to_98(int n);
+
 #endif
