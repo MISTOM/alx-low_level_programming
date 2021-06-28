@@ -1,15 +1,26 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
-/* 1-swap.c */
-void swap_int(int *a, int *b);
+int _putchar(char c);
 
-/* 0-reset_to_98.c */
 void reset_to_98(int *n);
 
-/* 2-strlen.c */
+void swap_int(int *a, int *b);
+
 int _strlen(char *s);
 
-/* 3-puts.c */
 void _puts(char *str);
+
+void print_rev(char *s);
+
+void rev_string(char *s);
+
+void puts2(char *str);
+
+void print_array(int *a, int n);
+
+char *_strcpy(char *dest, char *src);
+
+int _atoi(char *s);
+
 #endif
