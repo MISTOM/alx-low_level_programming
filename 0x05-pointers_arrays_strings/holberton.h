@@ -6,4 +6,7 @@ void swap_int(int *a, int *b);
 
 /* 0-reset_to_98.c */
 void reset_to_98(int *n);
+
+/* 2-strlen.c */
+int _strlen(char *s);
 #endif
