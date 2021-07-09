@@ -1,5 +1,5 @@
-!#/bin/bash
+#!/bin/bash
 gcc -c *.c
-ar rc liball.a *.o
+ar -rc liball.a *.o
+ranlib liball.a
 rm *.o
-
